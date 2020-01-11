@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>First</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--	small标签用于创建字号更小，颜色更浅的字体-->
+	<div class="container">
+		<h1>Header <small>Smaller</small></h1>
+		<h2>Header <small>Smaller</small></h2>
+	</div>
+	
+<!--	mark标签用于标记文本，同时有一定内边距-->
+	<div class="container">
+		<h4>plain <mark style="background:yellow;">marked</mark></h4>
+		<p>plain <mark>marked</mark></p>
+	</div>
+	
+<!--	abbr标签用于定义缩写-->
+	<div class="container">
+		<p>This is <abbr title="Unicode Transformation Format 8">utf8</abbr> coded</p>
+	</div>
+	
+<!--	blockquote用于定义引用-->
+	<div class="container">
+		<blockquote class="blockquote">
+			<p>书籍是人类进步的阶梯。</p>
+			<footer class="blockquote-footer">高尔基</footer>
+		</blockquote>		
+	</div>
+
+<!--	dl标签用于定义discription list	-->
+	<div class="container">
+		<p>Discription list:</p>
+		<dl>
+			<dt>dt element. t means title</dt>
+			<dd>- dd element. d means description</dd>
+		</dl>
+	</div>
+	
+<!--	code标签用于定义代码片段	-->
+	<div class="container">
+		<p>This is <code>html</code>,<code>css</code>,<code>javasctipt</code></p>
+	</div>
+	
+<!--	kbd标签用于定义键盘输入	-->
+	<div class="container">
+		<p>You can type <kbd>F5</kbd> to flush this page</p>
+		<p>You can type <kbd>Alt + F4</kbd> to close almost everything in windows</p>
+	</div>
+	
+<!--pre标签能保留空格和换行-->
+	<div class="container">
+		<pre>Multiple          space</pre>
+		<pre>cr and lf
+			is printed.
+		</pre>
+	</div>	
+	
+<!--	font-weight调整字体粗细-->
+	<div class="container">
+		<p class="font-weight-bold">Bold</p>
+		<p class="font-weight-normal">Normal</p>
+		<p class="font-weight-light">Light</p>
+		<p class="font-italic">Italic</p>
+	</div>
+	
+<!--	lead使字体突出-->
+	<div class="container">
+		<p class="lead">Lead text</p>
+		<p>Plain paragraph</p>
+	</div>
+	
+<!--	字体position-->
+	<div class="container">
+		<p class="text-left">Left Align</p>
+		<p class="text-center">Center Align</p>
+		<p class="text-right">Right Align</p>
+		<p class="text-justify">It will justify</p> <!-- 超出部分自动换行 -->
+		<p class="text-nowrap">It will not justify</p> <!-- 超出部分自动换行 -->
+	</div>
+	
+<!--	大小写控制-->
+	<div class="container">
+		<p class="text-lowercase">THIS WILL BE LOWERCASED</p>
+		<p class="text-uppercase">this will be uppercased</p>
+		<p class="text-capitalize">this will be capitalized</p>
+	</div>	
+
+<!--	消除列表内容的格式-->
+	<div class="container">
+		<ul class="list-unstyled">
+			<li>Great!</li>
+			<li>Excellent!
+				<ul>
+					<li>Excellent???</li>
+					<li>Excellent!!!</li>
+				</ul>
+			</li>
+			<li>Perfect!</li>
+		</ul>
+	</div>		
+	
+<!--	使列表内容不换行-->
+	<div class="container">
+		<ul class="list-inline">
+			<li class="list-inline-item">Great!</li>
+			<li class="list-inline-item">Excellent!</li>
+			<li class="list-inline-item">Perfect!</li>
+		</ul>
+	</div>		
+	
+</body>
+</html>

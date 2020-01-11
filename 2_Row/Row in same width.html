@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>First</title>
-	<!-- 使其对移动设备更加友好 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -12,25 +11,13 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
+<!--创建相同宽度的三列，列必须包含在行中，行要包含在容器中-->
 <body>
-	<div class="container-fluid">
-		<div class="jumbotron">
-			<h1>Bootstrap界面</h1>
-			<p>重置窗口大小，查看响应式效果！</p>
-		</div>
+	<div class="container">
 		<div class="row">
-			<div class="col-sm-4">
-				<h3>第一列</h3>
-				<p>这是第一列哦</p>
-			</div>
-			<div class="col-sm-4">
-				<h3>第二列</h3>
-				<p>这是第二列哦</p>
-			</div>
-			<div class="col-sm-4">
-				<h3>第三列</h3>
-				<p>这是第三列哦</p>
-			</div>
+			<div class="col" style="background:lavender;">Col1</div>
+			<div class="col" style="background:silver;">Col2</div>
+			<div class="col" style="background:lavender;">Col3</div>
 		</div>
 	</div>
 </body>
